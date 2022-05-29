@@ -3,5 +3,8 @@ This script monitors the availability status of an Amazon product by scraping in
 
 ## Usage
 1. Install required modules
-2. Update `main("enter url here")` with the URL of the product
-3. Run `& C:/Python38/python.exe path/to/script/amztracker.py`
+2. Update `main("enter url here", 60)` with the URL of the product and change 60 to desired check interval in seconds
+3. If using proxies:
+    - Create `proxies.csv` in the same script location
+    - Enter proxies on every new line in the format of IP:Port `192.168.1.254:8080`
+5. Run `& C:/Python38/python.exe path/to/script/amztracker.py`
