@@ -1,5 +1,5 @@
 # Amazon-InStock-Monitor 📈
-This script monitors the availability status of an Amazon product by scraping information from it's product page. It will then send a notification sound alert if either the price, availability, or the "See Buying Options" button are present and returns a result.
+This script monitors the availability status of an Amazon product by scraping information from its product page. A notification sound alert is played if "In stock" line or the "See Buying Options" button are detected.
 
 ## Usage
 1. Install required modules
